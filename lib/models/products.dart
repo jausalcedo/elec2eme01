@@ -1,7 +1,7 @@
 class Products {
   String productCode;
   String name;
-  int price;
+  double price;
 
   Products({
     required this.productCode,

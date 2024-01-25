@@ -79,7 +79,7 @@ class AddEditScreen extends StatelessWidget {
                       Products(
                         productCode: codeController.text,
                         name: nameController.text,
-                        price: int.parse(priceController.text)
+                        price: double.parse(priceController.text)
                       )
                     );
                     Navigator.pop(context);
@@ -90,7 +90,7 @@ class AddEditScreen extends StatelessWidget {
                       Products(
                         productCode: codeController.text,
                         name: nameController.text,
-                        price: int.parse(priceController.text)
+                        price: double.parse(priceController.text)
                       )
                     );
                     Navigator.pop(context);
